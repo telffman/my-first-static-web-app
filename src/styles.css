@@ -1,21 +1,27 @@
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
     text-align: center;
-    padding: 50px;
 }
 
 h1 {
     font-size: 24px;
     color: #333;
+    margin-bottom: 30px;
 }
 
 button {
-    font-size: 20px;
-    padding: 10px 20px;
-    margin: 20px;
+    font-size: 24px;
+    padding: 20px 40px;
+    margin: 10px;
     cursor: pointer;
-}
-
-#results p {
-    font-size: 18px;
+    width: 200px; /* Ensures buttons are the same width */
+    display: block; /* Stacks buttons vertically */
 }
